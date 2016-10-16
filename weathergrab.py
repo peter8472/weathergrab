@@ -38,7 +38,7 @@ if __name__ == "__main__":
     for i in myht.nextlink():
         time.sleep(1)
         pic = urllib2.urlopen(a.n0r+i)
-        # with open(i,'w') as f:   CLOBBERS FILES.  FIX THIS BEFORE USING
+        # with open(i,'wb') as f:   CLOBBERS FILES.  FIX THIS BEFORE USING
           #  f.write(pic.read())
     
     
